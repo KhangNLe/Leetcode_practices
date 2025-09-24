@@ -24,7 +24,7 @@ Output: "2"
 ```
 
 ### Example 3:
-```
+```yaml
 Input: numerator = 4, denominator = 333
 Output: "0.(012)"
 ```
