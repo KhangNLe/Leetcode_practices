@@ -6,10 +6,6 @@ import (
 
 func TriangleNumber(nums []int) int {
 	size := len(nums)
-	if size <= 2 {
-		return 0
-	}
-
 	count := 0
 	sort.Ints(nums)
 
