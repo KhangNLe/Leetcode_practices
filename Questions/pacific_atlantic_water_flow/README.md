@@ -55,11 +55,17 @@ When first reading the question, my mind immediately think that this is a graph 
 I still know that I would want to perform a graph traversal; however, I did not want to run through each elements. Instead of perform a graph traversal from a given node to the Ocean, we can try to find which nodes can the Ocean leaded up to. By doing this, we can do two different set of graph traversal for each the Pacific and Atlantic Ocean. Then we can find the common nodes between the two the two graph traversal and that would be our answer.
 
 It would looks something like this:
+
 ![Step 1](resources/Step1.png)
+
 All the nodes that can lead to Pacific Ocean
+
 ![Step 2](resources/Step2.png)
+
 All the nodes that can lead to Atlantic Ocean
+
 ![Step 3](resources/Step3.png)
+
 The common nodes that are both in Pacific Ocean set and Atlantic set
 
 With this algorithm, we will have a time complexity of `O(rows * cols)` and a space complexity of `O(rows * cols)`
